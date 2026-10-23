@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Billboard & OOH Advertising NYC | Unique Media</title>
+    <meta name="description" content="Unique Media delivers digital billboard, programmatic DOOH & large format out-of-home advertising across Manhattan and NYC. Call 917-633-9572.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "AdvertisingAgency",
+          "@id": "https://uniquemedia.us/#business",
+          "name": "Unique Media | Digital Billboard & OOH Advertising NYC",
+          "url": "https://uniquemedia.us/",
+          "telephone": "+19176339572",
+          "image": "https://uniquemedia.com/images/logo/logo.svg",
+          "priceRange": "$$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1210 Lexington Ave #1210",
+            "addressLocality": "New York",
+            "addressRegion": "NY",
+            "postalCode": "10028",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.7770729,
+            "longitude": -73.9575377
+          },
+          "areaServed": ["Manhattan", "New York City", "NY", "Times Square"],
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+              "opens": "10:00",
+              "closes": "19:00"
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "name": "Digital Billboard Advertising",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Manhattan, NYC"
+        },
+        {
+          "@type": "Service",
+          "name": "OOH Advertising",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Manhattan, NYC"
+        },
+        {
+          "@type": "Service",
+          "name": "Programmatic DOOH",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Manhattan, NYC"
+        },
+        {
+          "@type": "Service",
+          "name": "Digital Outdoor Advertising",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Manhattan, NYC"
+        },
+        {
+          "@type": "Service",
+          "name": "Large Format Screen Advertising",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Manhattan, NYC"
+        },
+        {
+          "@type": "Service",
+          "name": "3D Screen Advertising",
+          "provider": {"@id": "https://uniquemedia.us/#business"},
+          "areaServed": "Manhattan, NYC"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is digital billboard and OOH advertising?",
+              "acceptedAnswer": {"@type": "Answer", "text": "Digital billboard and OOH (out-of-home) advertising places your brand on digital screens and large format displays across high-traffic areas of Manhattan, reaching commuters, tourists and locals throughout the day."}
+            },
+            {
+              "@type": "Question",
+              "name": "What is programmatic DOOH and how does it work?",
+              "acceptedAnswer": {"@type": "Answer", "text": "Programmatic DOOH lets you buy digital out-of-home screen time in real time, targeting specific dayparts, locations and audiences with transparent, measurable performance reporting."}
+            },
+            {
+              "@type": "Question",
+              "name": "Can I run a 3D screen advertising campaign with Unique Media?",
+              "acceptedAnswer": {"@type": "Answer", "text": "Yes. We design 3D screen advertising creative built for anamorphic digital displays, giving your campaign a standout, highly shareable visual effect."}
+            },
+            {
+              "@type": "Question",
+              "name": "Do you offer digital signage advertising beyond Times Square?",
+              "acceptedAnswer": {"@type": "Answer", "text": "We do. In addition to Times Square advertising, we place digital signage and large format screen advertising across Manhattan and NYC to match your campaign's target locations."}
+            },
+            {
+              "@type": "Question",
+              "name": "Where is Unique Media located and what are your hours?",
+              "acceptedAnswer": {"@type": "Answer", "text": "We're located at 1210 Lexington Ave #1210, New York, NY 10028, open Monday to Friday 10:00 AM to 7:00 PM. We're closed Saturday and Sunday. Call 917-633-9572 to schedule a consultation."}
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            color: #1C1C1E;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background: #FAFAFA;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background: linear-gradient(135deg, #0D0D0F 0%, #1A1A1D 100%);
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+            z-index: 1000;
+            animation: slideDown 0.6s ease-out;
+            border-bottom: 2px solid #D4AF37;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo {
+            width: 64px;
+            height: 64px;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 10px rgba(212, 175, 55, 0.4));
+        }
+
+        .logo-fallback {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+            color: #0D0D0F;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4);
+        }
+
+        .brand-name {
+            color: #FAFAFA;
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .btn-header {
+            padding: 0.8rem 1.8rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .btn-phone {
+            background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+            color: #0D0D0F;
+            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+        }
+
+        .btn-phone:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(212, 175, 55, 0.6);
+        }
+
+        .btn-website {
+            background: transparent;
+            color: #D4AF37;
+            border: 2px solid #D4AF37;
+        }
+
+        .btn-website:hover {
+            background: #D4AF37;
+            color: #0D0D0F;
+            transform: translateY(-2px);
+        }
+
+        .hero {
+            position: relative;
+            background: linear-gradient(135deg, #0D0D0F 0%, #1F1A10 55%, #2A1F0A 100%);
+            padding: 8rem 2rem 6rem;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.14) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(230, 57, 70, 0.1) 0%, transparent 50%);
+            animation: shimmer 8s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.65; }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 1000px;
+            margin: 0 auto;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero h1 {
+            font-size: 3.3rem;
+            color: #FAFAFA;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            line-height: 1.2;
+        }
+
+        .hero-subheading {
+            font-size: 1.4rem;
+            color: #D4AF37;
+            margin-bottom: 3rem;
+            font-weight: 300;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-hero {
+            padding: 1.2rem 3rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+            color: #0D0D0F;
+            box-shadow: 0 6px 25px rgba(212, 175, 55, 0.5);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 35px rgba(212, 175, 55, 0.7);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: #D4AF37;
+            border: 2px solid #D4AF37;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(212, 175, 55, 0.2);
+            transform: translateY(-3px);
+        }
+
+        section {
+            padding: 5rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.6rem;
+            color: #0D0D0F;
+            text-align: center;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .section-subtitle {
+            font-size: 1.15rem;
+            color: #555555;
+            text-align: center;
+            margin-bottom: 4rem;
+            font-family: 'Arial', sans-serif;
+            font-weight: 300;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            margin-bottom: 3rem;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .about-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #1C1C1E;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+        }
+
+        .about-text a {
+            color: #B8860B;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .about-text a:hover {
+            color: #D4AF37;
+        }
+
+        .about-images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .about-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(13, 13, 15, 0.25);
+            transition: all 0.3s ease;
+        }
+
+        .about-image:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(13, 13, 15, 0.35);
+        }
+
+        .feature-image-section {
+            padding: 0;
+            margin: 4rem 0;
+        }
+
+        .feature-image {
+            width: 100%;
+            height: 460px;
+            object-fit: cover;
+            box-shadow: 0 10px 40px rgba(13, 13, 15, 0.25);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .service-card {
+            background: linear-gradient(135deg, #FFFFFF 0%, #FAFAFA 100%);
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(13, 13, 15, 0.08);
+            transition: all 0.4s ease;
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 45px rgba(13, 13, 15, 0.18);
+            border-color: #D4AF37;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            color: #0D0D0F;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .service-card p {
+            font-size: 1rem;
+            color: #2C2C2C;
+            line-height: 1.7;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .service-card a {
+            color: #B8860B;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .service-card a:hover {
+            color: #D4AF37;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .blog-article {
+            background: #FFFFFF;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(13, 13, 15, 0.08);
+            border-left: 4px solid #D4AF37;
+            transition: all 0.3s ease;
+        }
+
+        .blog-article:hover {
+            box-shadow: 0 12px 35px rgba(13, 13, 15, 0.15);
+            transform: translateX(5px);
+        }
+
+        .blog-article h3 {
+            font-size: 1.7rem;
+            color: #0D0D0F;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .blog-article p {
+            font-size: 1rem;
+            color: #2C2C2C;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .blog-article a {
+            color: #B8860B;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .blog-article a:hover {
+            color: #D4AF37;
+        }
+
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: #FFFFFF;
+            margin-bottom: 1.5rem;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(13, 13, 15, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 6px 25px rgba(13, 13, 15, 0.14);
+        }
+
+        .faq-question {
+            background: linear-gradient(135deg, #0D0D0F 0%, #1A1A1D 100%);
+            color: #FAFAFA;
+            padding: 1.5rem 2rem;
+            cursor: pointer;
+            font-size: 1.25rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: linear-gradient(135deg, #1A1A1D 0%, #0D0D0F 100%);
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 2rem;
+            color: #D4AF37;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-question.active::after {
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            padding: 0 2rem;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .faq-answer.active {
+            max-height: 500px;
+            padding: 1.5rem 2rem;
+        }
+
+        .faq-answer p {
+            color: #2C2C2C;
+            line-height: 1.7;
+        }
+
+        .location-content {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .map-container {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(13, 13, 15, 0.2);
+            height: 500px;
+            width: 100%;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #0D0D0F 0%, #19140A 100%);
+            color: #FAFAFA;
+            padding: 4rem 2rem 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                radial-gradient(circle at 20% 80%, rgba(212, 175, 55, 0.12) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(230, 57, 70, 0.08) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 3rem;
+            margin-bottom: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .footer-section {
+            text-align: center;
+        }
+
+        .footer-section h3 {
+            color: #D4AF37;
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: #FAFAFA;
+            text-decoration: none;
+            line-height: 2;
+            font-family: 'Arial', sans-serif;
+            display: block;
+            transition: all 0.3s ease;
+            margin: 0.5rem 0;
+        }
+
+        .footer-section a:hover {
+            color: #D4AF37;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(212, 175, 55, 0.3);
+            color: #D4AF37;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+            z-index: 1;
+            font-size: 0.95rem;
+        }
+
+        .tags-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            justify-content: center;
+            margin-top: 2.5rem;
+        }
+
+        .tag-link {
+            background: #FFFFFF;
+            border: 1px solid rgba(212, 175, 55, 0.4);
+            color: #1C1C1E;
+            text-decoration: none;
+            padding: 0.6rem 1.3rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-family: 'Arial', sans-serif;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .tag-link:hover {
+            background: #D4AF37;
+            color: #0D0D0F;
+            border-color: #D4AF37;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 1024px) {
+            .about-content,
+            .location-content {
+                grid-template-columns: 1fr;
+            }
+
+            .services-grid,
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2rem; }
+            .hero-subheading { font-size: 1.1rem; }
+            .section-title { font-size: 1.9rem; }
+            .header-content { flex-direction: column; text-align: center; }
+            .hero-cta { flex-direction: column; }
+            .about-images { grid-template-columns: 1fr; }
+        }
+
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+
+        .animate-on-scroll.animated {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="https://uniquemedia.com/images/logo/logo.svg" alt="Unique Media Digital Billboard and OOH Advertising NYC Logo" class="logo" onerror="this.outerHTML='&lt;div class=&quot;logo-fallback&quot;&gt;UM&lt;/div&gt;'">
+                <div class="brand-name">Unique Media</div>
+            </div>
+            <div class="header-buttons">
+                <a href="tel:917-633-9572" class="btn-header btn-phone">Call: 917-633-9572</a>
+                <a href="https://uniquemedia.us/" target="_blank" class="btn-header btn-website">Visit Website</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Digital Billboard &amp; <strong>OOH Advertising</strong> in New York, NY</h1>
+            <p class="hero-subheading">Programmatic DOOH, Large Format Screens &amp; Digital Signage Across Manhattan</p>
+            <div class="hero-cta">
+                <a href="tel:917-633-9572" class="btn-hero btn-primary">Book Your Campaign</a>
+                <a href="#services" class="btn-hero btn-secondary">Explore Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="animate-on-scroll">
+        <h2 class="section-title">Your Brand, Everywhere Manhattan Looks</h2>
+        <p class="section-subtitle">Digital Billboards. Programmatic Reach. Measurable Results.</p>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Welcome to <a href="https://uniquemedia.us/" target="_blank"><strong>Unique Media</strong></a>, a <a href="https://www.google.com/maps?cid=10663882297899451215" target="_blank"><strong>Digital Billboard Advertising</strong></a> agency built for brands that want to be seen across New York City. From towering digital screens to targeted <strong>OOH Advertising</strong> placements, we put your message in front of the people who matter.</p>
+                <p>We specialize in <strong>Programmatic DOOH</strong>, letting you buy screen time in real time across Manhattan's highest-traffic locations, including <strong>Times Square Advertising</strong>. Every campaign is backed by clear reporting, so you always know exactly where your budget is going.</p>
+                <p>Our <strong>Digital Outdoor Advertising</strong> and <strong>Large Format Screen Advertising</strong> options are paired with striking <strong>3D Screen Advertising</strong> creative and precise <strong>Digital Signage Advertising</strong>, giving your brand the reach of traditional OOH with the control of digital media.</p>
+                <p>Located at <strong>1210 Lexington Ave #1210</strong>, we serve brands and agencies throughout Manhattan, NYC and NY with out-of-home advertising built to perform.</p>
+            </div>
+            <div class="about-images">
+                <img src="https://images.unsplash.com/photo-1783165348561-59cad221ab2c?w=600&h=400&fit=crop" alt="Vibrant digital billboards illuminating Manhattan buildings" class="about-image" onerror="this.src='https://images.unsplash.com/photo-1774544311409-bebfbf4632b9?w=600&h=400&fit=crop'">
+                <img src="https://images.unsplash.com/photo-1766228053354-7d56b8a1c5a9?w=600&h=400&fit=crop" alt="Vibrant digital billboards in New York City at night" class="about-image" onerror="this.src='https://images.unsplash.com/photo-1560196327-cca0a731441b?w=600&h=400&fit=crop'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Image Section -->
+    <div class="feature-image-section">
+        <img src="https://images.unsplash.com/photo-1774544311409-bebfbf4632b9?w=1600&h=700&fit=crop" alt="Illuminated digital billboards across the New York City skyline at night" class="feature-image" onerror="this.src='https://images.unsplash.com/photo-1783165348561-59cad221ab2c?w=1600&h=700&fit=crop'">
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="animate-on-scroll">
+        <h2 class="section-title">Digital Billboard &amp; OOH Services</h2>
+        <p class="section-subtitle">Out-of-Home Solutions Built for Manhattan</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Digital Billboard Advertising</h3>
+                <p>Get your brand on premium <a href="https://www.google.com/maps?cid=10663882297899451215" target="_blank"><strong>Digital Billboard Advertising</strong></a> placements across Manhattan, with rotating spots that put you in front of massive daily foot traffic.</p>
+            </div>
+            <div class="service-card">
+                <h3>OOH Advertising</h3>
+                <p>Our <strong>Out-Of-Home Advertising</strong> campaigns combine prime locations with creative that stops people in their tracks, building brand recall across New York City.</p>
+            </div>
+            <div class="service-card">
+                <h3>Programmatic DOOH</h3>
+                <p>Buy and manage <strong>Programmatic Outdoor Advertising</strong> in real time, targeting specific dayparts and audiences with transparent reporting on every impression delivered.</p>
+            </div>
+            <div class="service-card">
+                <h3>Digital Outdoor Advertising</h3>
+                <p>Our <strong>Digital Outdoor Advertising</strong> and <strong>Large Format Screen Advertising</strong> placements dominate the skyline, giving your campaign scale that smaller media can't match.</p>
+            </div>
+            <div class="service-card">
+                <h3>3D Screen Advertising</h3>
+                <p>Our <strong>3D Screen Advertising</strong> creative uses anamorphic design to make products and brand moments leap off the display, generating content people want to share.</p>
+            </div>
+            <div class="service-card">
+                <h3>Digital Signage Advertising</h3>
+                <p>From concept to placement, our <a href="https://uniquemedia.us/" target="_blank"><strong>Digital Signage Advertising</strong></a> packages are tailored to brands that want a presence across Manhattan, NYC and NY.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Searches -->
+    <section class="animate-on-scroll" style="padding-top:0;">
+        <h2 class="section-title" style="font-size:1.8rem;">Related Searches</h2>
+        <div class="tags-wrap">
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Digital Billboard Advertising</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=10663882297899451215" target="_blank">OOH Advertising</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Programmatic DOOH</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=10663882297899451215" target="_blank">Out-Of-Home Advertising</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Digital Outdoor Advertising</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=10663882297899451215" target="_blank">Large Format Screen Advertising</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Times Square Advertising</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=10663882297899451215" target="_blank">3D Screen Advertising</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Programmatic Outdoor Advertising</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=10663882297899451215" target="_blank">Digital Signage Advertising</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">Manhattan</a>
+            <a class="tag-link" href="https://www.google.com/maps?cid=10663882297899451215" target="_blank">NYC</a>
+            <a class="tag-link" href="https://uniquemedia.us/" target="_blank">NY</a>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="animate-on-scroll">
+        <h2 class="section-title">Advertising Insights</h2>
+        <p class="section-subtitle">What Brands Should Know About NYC OOH</p>
+        <div class="blog-grid">
+            <article class="blog-article">
+                <h3>Why Digital Billboard Advertising Outperforms Traditional OOH in NYC</h3>
+                <p>As a leading provider of <a href="https://uniquemedia.us/" target="_blank"><strong>Digital Billboard Advertising</strong></a>, we see firsthand how flexible, rotating digital creative outperforms static placements in both attention and recall across Manhattan.</p>
+                <p>Unlike fixed media, digital screens let you adjust messaging by daypart, audience and even weather — all while still delivering the same massive physical footprint that makes <strong>OOH Advertising</strong> so powerful.</p>
+                <p>For brands looking to make an impact, digital billboard placements offer a combination of scale, flexibility and measurability that's difficult to replicate anywhere else.</p>
+                <p>Ready to launch your campaign? Call <strong>917-633-9572</strong> to discuss available placements and pricing.</p>
+            </article>
+            <article class="blog-article">
+                <h3>Programmatic DOOH Explained: Smarter Out-of-Home Buying</h3>
+                <p>Brands exploring <strong>Programmatic DOOH</strong> often ask how it differs from traditional media buying. The short answer: programmatic gives you real-time control over when, where and how often your creative appears.</p>
+                <p>With <strong>Programmatic Outdoor Advertising</strong>, your campaign can adapt to live conditions and audience data, so your budget goes toward the impressions that matter most to your goals.</p>
+                <p>It's one of the fastest-growing segments of <a href="https://www.google.com/maps?cid=10663882297899451215" target="_blank"><strong>Out-Of-Home Advertising</strong></a>, and our team can help you get started.</p>
+                <p>Our team can walk you through setup, targeting options and reporting for your next campaign.</p>
+            </article>
+            <article class="blog-article">
+                <h3>3D Screens & Digital Signage: The Future of NYC Advertising</h3>
+                <p>The newest wave of <strong>3D Screen Advertising</strong> uses anamorphic design to make products, logos and brand moments appear to leap off the display and into three-dimensional space.</p>
+                <p>Paired with strategic <strong>Digital Signage Advertising</strong> across Manhattan, these campaigns consistently outperform flat creative in both attention and social sharing — especially in high-traffic areas like <strong>Times Square Advertising</strong> locations.</p>
+                <p>If your brand wants to stand out in a city full of bright screens, a 3D creative concept is one of the most effective ways to do it.</p>
+                <p>Contact <a href="https://uniquemedia.us/" target="_blank"><strong>Unique Media</strong></a> to explore 3D and digital signage options for your next campaign.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="animate-on-scroll">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Your Questions Answered</p>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">What is digital billboard and OOH advertising?</div>
+                <div class="faq-answer">
+                    <p><strong>Digital billboard and OOH advertising</strong> places your brand on digital screens and large format displays across high-traffic areas of Manhattan, reaching commuters, tourists and locals throughout the day with rotating, measurable creative.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">What is programmatic DOOH and how does it work?</div>
+                <div class="faq-answer">
+                    <p><strong>Programmatic DOOH</strong> lets you buy digital out-of-home screen time in real time, targeting specific dayparts, locations and audiences with transparent, measurable performance reporting. Call <strong><a href="tel:917-633-9572" style="color: #0D0D0F;">917-633-9572</a></strong> to learn more.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Can I run a 3D screen advertising campaign with Unique Media?</div>
+                <div class="faq-answer">
+                    <p>Yes. We design <strong>3D Screen Advertising</strong> creative built for anamorphic digital displays, giving your campaign a standout, highly shareable visual effect that stands out from standard flat creative.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Do you offer digital signage advertising beyond Times Square?</div>
+                <div class="faq-answer">
+                    <p>We do. In addition to <strong>Times Square Advertising</strong>, we place <strong>Digital Signage Advertising</strong> and <strong>Large Format Screen Advertising</strong> across Manhattan and NYC to match your campaign's target locations.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Where is Unique Media located and what are your hours?</div>
+                <div class="faq-answer">
+                    <p>We're located at <strong>1210 Lexington Ave #1210, New York, NY 10028</strong>, open <strong>Monday to Friday, 10:00 AM to 7:00 PM</strong>. We're closed Saturday and Sunday. Call <strong><a href="tel:917-633-9572" style="color: #0D0D0F;">917-633-9572</a></strong> or visit <strong><a href="https://uniquemedia.us/" style="color: #0D0D0F;">uniquemedia.us</a></strong> to schedule a consultation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="animate-on-scroll">
+        <h2 class="section-title">Visit Unique Media in Manhattan</h2>
+        <p class="section-subtitle">Our team is ready to put your brand on the digital screens of New York City.</p>
+        <div class="location-content">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.315711286073!2d-73.9575377!3d40.7770729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259485befa3eb%3A0x93fdb87344df834f!2sUnique%20Media%20%7C%20Digital%20Billboard%20%26%20OOH%20Advertising%20NYC!5e0!3m2!1sen!2s!4v1792669840564!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p><strong>Unique Media | Digital Billboard &amp; OOH Advertising NYC</strong></p>
+                <p>1210 Lexington Ave #1210</p>
+                <p>New York, NY 10028</p>
+                <p><a href="tel:917-633-9572">917-633-9572</a></p>
+                <p><a href="https://uniquemedia.us/" target="_blank">uniquemedia.us</a></p>
+                <p>Mon–Fri 10:00 AM–7:00 PM | Sat–Sun Closed</p>
+            </div>
+            <div class="footer-section">
+                <h3>Our Services</h3>
+                <a href="#services">Digital Billboard Advertising</a>
+                <a href="#services">OOH Advertising</a>
+                <a href="#services">Programmatic DOOH</a>
+                <a href="#services">Digital Outdoor Advertising</a>
+                <a href="#services">3D Screen Advertising</a>
+                <a href="#services">Digital Signage Advertising</a>
+            </div>
+            <div class="footer-section">
+                <h3>About Unique Media</h3>
+                <p>Unique Media is Manhattan's go-to agency for digital billboard and OOH advertising, placing brands across New York City's most iconic digital screens with precision and transparency.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Unique Media | Digital Billboard & OOH Advertising NYC. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isActive = answer.classList.contains('active');
+
+                document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('active'));
+                document.querySelectorAll('.faq-question').forEach(q => q.classList.remove('active'));
+
+                if (!isActive) {
+                    answer.classList.add('active');
+                    question.classList.add('active');
+                }
+            });
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animated');
+                }
+            });
+        }, observerOptions);
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+        document.querySelectorAll('.service-card').forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
+        });
+    </script>
+</body>
+</html>
